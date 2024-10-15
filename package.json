@@ -1,0 +1,23 @@
+{
+  "name": "v57",
+  "version": "0.1.0",
+  "description": "Bildungsstandards erste Fremdsprache MSA 2003",
+  "main": "index.js",
+  "scripts": {
+    "run_id": "addidcsv csv",
+    "run_ttl": "csv2ttl csv"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iqb-vocabs/v57.git"
+  },
+  "author": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iqb-vocabs/v57/issues"
+  },
+  "homepage": "https://github.com/iqb-vocabs/v57#readme",
+  "dependencies": {
+    "@iqb/csv2ttl": "^0.8.2"
+  }
+}

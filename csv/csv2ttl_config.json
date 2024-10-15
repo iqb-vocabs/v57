@@ -1,0 +1,49 @@
+{
+    "id": "2003FrMSA",
+    "title": [
+      {
+        "lang": "de",
+        "value": "Bildungsstandards erste Fremdsprache MSA 2003"
+      }
+    ],
+    "csv_delimiter": ",",
+    "base": "https://w3id.org/iqb/v57",
+    "outDir": "./",
+    "creator": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
+    "vocabularies": [
+      {
+        "id": "k1",
+        "title": [
+          {
+            "lang": "de",
+            "value": "Kompetenzbereiche"
+          }
+        ],
+        "filenameSource": "k1_Kompetenzbereiche.csv",
+        "filenameTarget": "k1_Kompetenzbereiche.ttl",
+        "description": [
+          {
+            "lang": "de",
+            "value": "Die Kompetenzbereiche in der Sekundarstufe I sind in der nachfolgenden Skizze in ihren Hauptbezügen zueinander dargestellt:"
+          }
+        ]
+      },
+      {
+        "id": "s1",
+        "title": [
+          {
+            "lang": "de",
+            "value": "Standards für die Kompetenzbereiche im Fach Deutsch"
+          }
+        ],
+        "filenameSource": "s1_Standards_Kompetenzbereiche.csv",
+        "filenameTarget": "s1_Standards_Kompetenzbereiche.ttl",
+        "description": [
+          {
+            "lang": "de",
+            "value": ""
+          }
+        ]
+      }
+    ]
+  }
