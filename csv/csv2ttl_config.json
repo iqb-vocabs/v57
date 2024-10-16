@@ -12,36 +12,36 @@
     "creator": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
     "vocabularies": [
       {
-        "id": "k1",
+        "id": "e1",
         "title": [
           {
             "lang": "de",
-            "value": "Kompetenzbereiche"
+            "value": "Mittlerer Schulabschluss Englisch"
           }
         ],
-        "filenameSource": "k1_Kompetenzbereiche.csv",
-        "filenameTarget": "k1_Kompetenzbereiche.ttl",
+        "filenameSource": "e1_englisch_msa.csv",
+        "filenameTarget": "e1_englisch_msa.ttl",
         "description": [
           {
             "lang": "de",
-            "value": "Die Kompetenzbereiche in der Sekundarstufe I sind in der nachfolgenden Skizze in ihren Hauptbezügen zueinander dargestellt:"
+            "value": "In diesem Kapitel werden die von den Schülerinnen und Schülern zu erwerbenden zentralen Kompetenzen für den Mittleren Schulabschluss beschrieben. Die Beschreibung erfolgt in enger Anlehnung an den Gemeinsamen europäischen Referenzrahmen (GeR).2) Sofern der GeR seinerseits Niveaustufen der Sprachbeherrschung definiert, werden diese auch hier verwendet. Insofern werden für die Kommunikativen Fertigkeiten (Kapitel 3.1) und die Verfügbarkeit der sprachlichen Mittel (Kapitel 3.2) Niveaustufen des Referenzrahmens angeführt. Für die Interkulturellen Kompetenzen (Kapitel 3.3) und die Methodenkompetenzen (Kapitel 3.4) werden entsprechend keine Stufungen vorgenommen. Die Niveaustufe beschreibt jeweils das mittlere sprachliche Niveau, das die Schülerinnen und Schüler bis zum Erwerb des Mittleren Schulabschlusses erreichen sollen."
           }
         ]
       },
       {
-        "id": "s1",
+        "id": "f1",
         "title": [
           {
             "lang": "de",
-            "value": "Standards für die Kompetenzbereiche im Fach Deutsch"
+            "value": "Mittlerer Schulabschluss Französisch"
           }
         ],
-        "filenameSource": "s1_Standards_Kompetenzbereiche.csv",
-        "filenameTarget": "s1_Standards_Kompetenzbereiche.ttl",
+        "filenameSource": "f1_franzoesisch_msa.csv",
+        "filenameTarget": "f1_franzoesisch_msa.ttl",
         "description": [
           {
             "lang": "de",
-            "value": ""
+            "value": "In diesem Kapitel werden die von den Schülerinnen und Schülern zu erwerbenden zentralen Kompetenzen für den Mittleren Schulabschluss beschrieben. Die Beschreibung erfolgt in enger Anlehnung an den Gemeinsamen europäischen Referenzrahmen (GeR).2) Sofern der GeR seinerseits Niveaustufen der Sprachbeherrschung definiert, werden diese auch hier verwendet. Insofern werden für die Kommunikativen Fertigkeiten (Kapitel 3.1) und die Verfügbarkeit der sprachlichen Mittel (Kapitel 3.2) Niveaustufen des Referenzrahmens angeführt. Für die Interkulturellen Kompetenzen (Kapitel 3.3) und die Methodenkompetenzen (Kapitel 3.4) werden entsprechend keine Stufungen vorgenommen. Die Niveaustufe beschreibt jeweils das mittlere sprachliche Niveau, das die Schülerinnen und Schüler bis zum Erwerb des Mittleren Schulabschlusses erreichen sollen."
           }
         ]
       }
