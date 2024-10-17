@@ -605,6 +605,92 @@ n1:q3x
 	skos:narrower 
 		n1:r6e,
 		n1:h5a.
+n1:x5c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.5.1";
+	skos:broader n1:c3f;
+	skos:prefLabel "Präsentationstechniken einsetzen (Medienwahl, Gliederungstechniken, Visualisierungstechniken, Gruppenpräsentation),"@de.
+n1:h6a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.5.2";
+	skos:broader n1:c3f;
+	skos:prefLabel "mit Lernprogrammen (auch Multimedia) arbeiten,"@de.
+n1:e4b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.5.3";
+	skos:broader n1:c3f;
+	skos:prefLabel "Neue Technologien zur Informationsbeschaffung, zur kommunikativen Interaktion (E-Mail) und zur Präsentation der Ergebnisse nutzen."@de.
+n1:c3f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.5";
+	skos:broader n1:e2b;
+	skos:prefLabel "Präsentation und Medien"@de; 
+	skos:definition "Die Schülerinnen und Schüler können"@de;
+	skos:narrower 
+		n1:x5c,
+		n1:h6a,
+		n1:e4b.
+n1:q6p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.6.1";
+	skos:broader n1:s4g;
+	skos:prefLabel "den Nutzen der Fremdsprache zur Pflege von persönlichen und beruflichen Kontakten einschätzen,"@de.
+n1:c4z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.6.2";
+	skos:broader n1:s4g;
+	skos:prefLabel "selbstständig, mit einem Partner oder in Gruppen längere Zeit arbeiten,"@de.
+n1:p6d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.6.3";
+	skos:broader n1:s4g;
+	skos:prefLabel "ausgewählte Projekte (z. B. bilinguale Projekte) bearbeiten"@de.
+n1:g2g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.6.4";
+	skos:broader n1:s4g;
+	skos:prefLabel "für sie förderliche Lernbedingungen erkennen und nutzen, ihre Lernarbeit organisieren und die Zeit einteilen,"@de.
+n1:x2u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.6.5";
+	skos:broader n1:s4g;
+	skos:prefLabel "Fehler erkennen und diese Erkenntnisse für den eigenen Lernprozess nutzen,"@de.
+n1:z4t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.6.6";
+	skos:broader n1:s4g;
+	skos:prefLabel "ihren eigenen Lernfortschritt beschreiben und ggf. in einem Portfolio dokumentieren,"@de.
+n1:p6a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.6.7";
+	skos:broader n1:s4g;
+	skos:prefLabel "Methoden des Spracherwerbs reflektieren und diese auf das Lernen weiterer Sprachen übertragen."@de.
+n1:s4g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.6";
+	skos:broader n1:e2b;
+	skos:prefLabel "Lernbewusstheit und Lernorganisation"@de; 
+	skos:definition "Die Schülerinnen und Schüler können"@de;
+	skos:narrower 
+		n1:q6p,
+		n1:c4z,
+		n1:p6d,
+		n1:g2g,
+		n1:x2u,
+		n1:z4t,
+		n1:p6a.
 n1:e2b
 	 a skos:Concept;
 	skos:inScheme n0:;
@@ -616,7 +702,9 @@ n1:e2b
 		n1:a7a,
 		n1:s4z,
 		n1:p4y,
-		n1:q3x.
+		n1:q3x,
+		n1:c3f,
+		n1:s4g.
 n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;

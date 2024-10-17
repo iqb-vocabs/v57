@@ -45,8 +45,8 @@ n1:a6q
 	skos:inScheme n0:;
 	skos:notation "1.1";
 	skos:broader n1:s6b;
-	skos:prefLabel """Hör- und Hör-/Sehverstehen"@de; 
-	skos:definition "Die Schülerinnen und Schüler können unkomplizierte Sachinformationen über gewöhnliche alltags- oder berufsbezogene Themen verstehen und dabei die Hauptaussagen und Einzelinformationen erkennen, wenn in deutlich artikulierter Standardsprache gesprochen wird (B1+).\n\n Die Schülerinnen und Schüler können"""@de;
+	skos:prefLabel "Hör- und Hör-/Sehverstehen"@de; 
+	skos:definition """Die Schülerinnen und Schüler können unkomplizierte Sachinformationen über gewöhnliche alltags- oder berufsbezogene Themen verstehen und dabei die Hauptaussagen und Einzelinformationen erkennen, wenn in deutlich artikulierter Standardsprache gesprochen wird (B1+).\n\n Die Schülerinnen und Schüler können"""@de;
 	skos:narrower 
 		n1:b3u,
 		n1:y6h,
@@ -434,7 +434,8 @@ n1:s4c
 	skos:inScheme n0:;
 	skos:notation "3.1";
 	skos:broader n1:f7x;
-	skos:prefLabel "Kompetenzen"@de;
+	skos:prefLabel "Kompetenzen"@de; 
+	skos:definition """Interkulturelle Kompetenzen sind mehr als Wissen und mehr als eine Technik. Sie sind auch und vor allem Haltungen, die ihren Ausdruck gleichermaßen im Denken, Fühlen und Handeln und ihre Verankerung in entsprechenden Lebenserfahrungen und ethischen Prinzipien haben. Interkulturelle Kompetenzen beinhalten Einsicht in die Kulturabhängigkeit des eigenen Denkens, Handelns und Verhaltens sowie die Fähigkeit und Bereitschaft zur Wahrnehmung und Analyse fremdkultureller Perspektiven. Zum Zeitpunkt des Erwerbs des Mittleren Schulabschlusses heißt das:\n\nDie Schülerinnen und Schüler"""@de;
 	skos:narrower 
 		n1:z6t,
 		n1:y5v,
@@ -677,6 +678,12 @@ n1:z4t
 	skos:notation "4.6.6";
 	skos:broader n1:s4g;
 	skos:prefLabel "ihren eigenen Lernfortschritt beschreiben und ggf. in einem Portfolio dokumentieren,"@de.
+n1:p6a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.6.7";
+	skos:broader n1:s4g;
+	skos:prefLabel "Methoden des Spracherwerbs reflektieren und diese auf das Lernen weiterer Sprachen übertragen."@de.
 n1:s4g
 	 a skos:Concept;
 	skos:inScheme n0:;
@@ -690,7 +697,8 @@ n1:s4g
 		n1:p6d,
 		n1:g2g,
 		n1:x2u,
-		n1:z4t.
+		n1:z4t,
+		n1:p6a.
 n1:x3f
 	 a skos:Concept;
 	skos:inScheme n0:;
